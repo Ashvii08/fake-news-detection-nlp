@@ -14,6 +14,15 @@ Misinformation spreads rapidly across online media platforms[cite: 2]. This proj
 
 ---
 
+## 💾 Dataset Information
+
+Due to file size constraints, the raw dataset is hosted externally on Kaggle[cite: 2].
+
+- **Dataset Source:** [Kaggle - Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+- **Setup:** Download the dataset from Kaggle and place the CSV files inside a local `dataset/` directory before running the notebook or Flask app locally[cite: 2, 3].
+
+---
+
 ## ⚙️ Project Architecture & Pipeline
 
 1. **4-Stage Text Preprocessing:** Cleaning text data using tokenization, stop-word removal, lemmatization/stemming, and special character stripping[cite: 2].
@@ -37,7 +46,6 @@ Misinformation spreads rapidly across online media platforms[cite: 2]. This proj
 ## 📁 Repository Structure
 
 ```text
-├── dataset/                    # Raw/processed dataset files
 ├── Images/                     # Screenshots and visual assets
 ├── static/                     # Web app static assets (CSS, JS)
 ├── templates/                  # HTML templates for Flask frontend
@@ -46,4 +54,4 @@ Misinformation spreads rapidly across online media platforms[cite: 2]. This proj
 ├── model.pkl                   # Serialized ML model
 ├── vector.pkl                  # Serialized TF-IDF vectorizer
 ├── requirements.txt            # Project library requirements
-└── README.md                   # Documentation
+└── README.md                   # Project documentation
